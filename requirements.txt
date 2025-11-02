@@ -1,1 +1,14 @@
 
+
+# Primary Deep Learning Frameworks
+torch
+torchvision
+
+# Utility Libraries
+numpy
+matplotlib
+
+# Data Handling (Used implicitly or for file operations)
+pandas
+requests
+Pillow
