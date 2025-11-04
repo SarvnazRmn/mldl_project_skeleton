@@ -1,4 +1,4 @@
-from models.custom import CustomNet
+from models.customnet import CustomNet
 def validate(model, val_loader, criterion):
     model.eval()    #VALIDATION  MODE
     val_loss = 0
@@ -22,4 +22,4 @@ def validate(model, val_loader, criterion):
     val_accuracy = 100. * correct / total
 
     print(f'Validation Loss: {val_loss:.6f} Acc: {val_accuracy:.2f}%')
-    return val_accuracy
+    return val_accuracy, val_loss

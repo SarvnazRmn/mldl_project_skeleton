@@ -12,3 +12,5 @@ matplotlib
 pandas
 requests
 Pillow
+
+wandb
